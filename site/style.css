@@ -40,6 +40,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; } /* 防止组件自身的 display 规则压过 hidden 属性 */
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
